@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,900");
+* {
+  box-sizing: border-box; }
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.container {
+  width: 100%;
+  margin: 0 auto; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  width: 100%; }
+
+.col-m-1 {
+  width: 8.3333333333%; }
+
+.col-m-2 {
+  width: 16.6666666667%; }
+
+.col-m-3 {
+  width: 25%; }
+
+.col-m-4 {
+  width: 33.3333333333%; }
+
+.col-m-5 {
+  width: 41.6666666667%; }
+
+.col-m-6 {
+  width: 50%; }
+
+.col-m-7 {
+  width: 58.3333333333%; }
+
+.col-m-8 {
+  width: 66.6666666667%; }
+
+.col-m-9 {
+  width: 75%; }
+
+.col-m-10 {
+  width: 83.3333333333%; }
+
+.col-m-11 {
+  width: 91.6666666667%; }
+
+.col-m-12 {
+  width: 100%; }
+
+/*naigation*/
+.container-fluid {
+  max-width: 100%; }
+
+header {
+  background: #313332;
+  height: 50px; }
+
+header ul {
+  font: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right; }
+
+header li {
+  display: inline-block; }
+
+header img {
+  padding: 10px 0; }
+
+nav a {
+  line-height: 50px;
+  padding: 0 20px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase; }
+  nav a:hover {
+    background-color: #ccc; }
+
+/*jumbotron*/
+.hero {
+  width: 100%;
+  height: 550px;
+  background-image: url("https://cdn.pixabay.com/photo/2014/12/22/19/59/macbook-577758_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; }
+
+.slogan {
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 800px;
+  float: right;
+  margin-top: 255px;
+  padding-right: 250px;
+  padding: 30px; }
+
+.solgan h1 {
+  font-weight: 300;
+  font-size: 50px;
+  padding: 50px;
+  text-transform: uppercase;
+  margin-right: 100px; }
+
+/*Icons*/
+section.container {
+  margin: 60px auto;
+  text-align: center;
+  padding: 30px 0; }
+
+i.fa {
+  width: 75px;
+  height: 75px;
+  font-size: 45px;
+  padding: 15px;
+  border-radius: 10%;
+  text-align: center; }
+
+.fa-desktop,
+.fa-cogs {
+  background: #000;
+  color: #fff; }
+
+.fa-code {
+  background: #00C7E8;
+  color: #fff; }
+
+.programing {
+  color: #00C7E8; }
+
+i ~ h3 {
+  padding: 15px;
+  font-size: 18px; }
+
+i ~ p {
+  font-size: 12px;
+  padding: 15px; }
+
+.works {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase; }
+
+/*gallery*/
+.gallery {
+  padding: 30px 0; }
+
+.gallery img {
+  width: 100%;
+  height: 290px;
+  display: block;
+  height: 250px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0; }
+
+.gallery .layer {
+  position: absolute; }
+
+.gallery .layer i.fa {
+  visibility: hidden; }
+
+.gallery .layer:hover {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.gallery .layer:hover i.fa {
+  visibility: visible; }
+
+/*Team*/
+.team {
+  margin: 50px auto;
+  text-align: center;
+  margin: 30px 30px;
+  padding: 50px 0; }
+
+.team img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center; }
+
+.team .col-m-3 {
+  position: relative; }
+
+.team .cover {
+  position: absolute;
+  top: 0;
+  left: 75px;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  width: 50%;
+  height: 180px;
+  text-align: center;
+  color: white;
+  background-image: radial-gradient(rgba(49, 51, 50, 0.5), transparent);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.3s; }
+
+.team .col-m-3:hover .cover {
+  visibility: visible;
+  transform: scale(1); }
+
+.container-img h3 {
+  text-align: center; }
+
+.awesome {
+  margin: 0 auto;
+  padding: 60px 0;
+  background-color: #232B30;
+  color: #fff; }
+
+.awesome img {
+  width: 90%;
+  height: 380px; }
+
+.awesome h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+.awesome p {
+  font-weight: 300;
+  line-height: 25px;
+  padding: 30px; }
+
+.numbers {
+  margin: 50px auto;
+  text-align: center;
+  padding: 30px 0; }
+
+.numbers h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  padding-bottom: 15px; }
+
+.numbers p {
+  text-transform: uppercase;
+  color: #00C7E8;
+  font-size: 20px; }
+
+.contact {
+  display: block;
+  padding: 50px;
+  text-align: left;
+  color: #fff;
+  background-color: #232B30; }
+
+.contact h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 30px; }
+
+.contact p {
+  font-size: 14px;
+  line-height: 22px;
+  padding-bottom: 20px; }
+
+.contact h4 {
+  padding-bottom: 28px; }
+
+.contact h5 {
+  padding-bottom: 20px; }
+
+.social {
+  padding-top: 20px;
+  display: inline-block;
+  font-size: 25px; }
+
+.social i.fa {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 28px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #00C7E8; }
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #959595;
+  margin: 0 auto;
+  padding: 10px; }
+
+@media (max-width: 767px) {
+  .col-s-1 {
+    width: 8.3333333333%; }
+  .col-s-2 {
+    width: 16.6666666667%; }
+  .col-s-3 {
+    width: 25%; }
+  .col-s-4 {
+    width: 33.3333333333%; }
+  .col-s-5 {
+    width: 41.6666666667%; }
+  .col-s-6 {
+    width: 50%; }
+  .col-s-7 {
+    width: 58.3333333333%; }
+  .col-s-8 {
+    width: 66.6666666667%; }
+  .col-s-9 {
+    width: 75%; }
+  .col-s-10 {
+    width: 83.3333333333%; }
+  .col-s-11 {
+    width: 91.6666666667%; }
+  .col-s-12 {
+    width: 100%; }
+  header {
+    height: 300px; }
+  header nav ul {
+    float: none;
+    text-align: center; }
+  nav ul > li {
+    display: block; }
+  .gallery .layer i.fa {
+    visibility: visible;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    border-radius: 5px; }
+  .team .cover {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    bottom: 0;
+    right: 0;
+    visibility: visible;
+    width: 50%;
+    height: 180px;
+    text-align: center;
+    color: white;
+    background-image: radial-gradient(rgba(49, 51, 50, 0.1), transparent);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: 0.3s; }
+  h3 {
+    margin: 20px 0; }
+  h2 {
+    margin-top: 80px; }
+  .awsome_title {
+    margin-top: 15px; }
+  .numbers h3 {
+    margin: 20px 0; }
+  .social i {
+    margin: 10px; } }
+
+/*# sourceMappingURL=main.css.map */

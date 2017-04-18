@@ -1,0 +1,26 @@
+{
+  "name": "kodilla-sass-project",
+  "version": "1.0.0",
+  "description": "Example grunt project",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbloc/Przeniesienie-projektu-na-sass.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Marcin Blochowiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcbloc/Przeniesienie-projektu-na-sass/issues"
+  },
+  "homepage": "https://github.com/marcbloc/Przeniesienie-projektu-na-sass#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0"
+  }
+}
